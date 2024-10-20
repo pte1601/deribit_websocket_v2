@@ -215,4 +215,6 @@ class WS_Client(object):
        self.json["params"] = options
        return self.loop(self.private_api, self.json)
 
+client_id: str = "7DtYbJWL"
+client_secret: str = "UEaEa_m5pbtdSrZ22GDhERC1OfJ2QS9iM7lskGWU1Ak"
 client = WS_Client(client_id, client_secret)
